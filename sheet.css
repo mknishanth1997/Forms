@@ -1,0 +1,271 @@
+h3 {
+    margin: 0;
+}
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  .rubik-mono-one-regular {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+.img {
+    /* border: 2px solid black; */
+    flex: .6;
+    background-image: url(mars.jpg);
+    background-size: cover;
+    font-family: "Rubik Mono One";
+    color: white;
+    font-size: 64px;
+    display: flex;
+    text-wrap: balance;
+    text-align: center;
+    padding-top: 16px;
+}
+form {
+    border: 2px solid black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.form {
+    padding: 50px;
+    box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);   
+    margin-bottom: 64px; 
+}
+.heading {
+    padding: 16px;
+    font-size: 32px;
+    font-family: "poppins-light";
+    /* margin-top:75px; */
+    padding: 50px;
+    /* border: 2px solid black; */
+    margin: 0;
+}
+.heading > h3 {
+    margin: 0;
+}
+
+fieldset {
+    position: relative;
+    border: none;
+}
+legend {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.name {
+    /* border: 5px dotted blue; */
+    display: flex;
+    /* border: 2px solid black; */
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.name > div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* border: 2px solid red; */
+}
+
+.contact-info {
+    display: flex;
+    margin-bottom: 32px;
+}
+.contact-info > div {
+    display: flex;
+    flex-direction: column ;
+    flex: 1;
+}
+
+.password {
+    display: flex;
+    margin-bottom: 32px;
+}
+.password > div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+input {
+    height: 40px;
+    width: 75%;
+    font-size: 32px;
+}
+label {
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+
+
+
+.submit-btn {
+    align-self: flex-start;
+    font-size: 32px;
+    padding: 16px 64px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 50px;
+    background-color: #596D48;
+    color: white;
+}
+p {
+    margin: 0;
+    margin-left: 50px;
+    font-size: 28px;
+    margin-top: 6px;
+}
+.logspan {
+    color: #596D48;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    border-bottom: 2px solid gray;
+}
+
+input:required:invalid + span::after {
+    content: "Required";
+    font-size: 22px;
+    color: red;
+}
+input:required:valid + span::after {
+    content: "Valid";
+    font-size: 22px;
+    color: green;
+}
+
+
+
+
+
